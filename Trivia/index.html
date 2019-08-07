@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>La mejor trivia!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "end.js"></script>
+
+</head>
+<body>
+<h1>La mejor trivia de internet!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Cual es la capital de Francia?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions"> Viernes 13 es...</p>
+<input type = "radio" id = "mc" name = "question2" value = " comic"> Un comic<br>
+<input type = "radio" id = "mc" name = "question2" value = " pelicula"> Una pelicula<br>
+<input type = "radio" id = "mc" name = "question2" value = "Fecha"> Una fecha<br>
+<input type = "radio" id = "mc" name = "question2" value = "Todas las anteriores"> Todas las anteriores<br>
+
+<p class = "questions">Cual de estas afirmaciones sobre el ornitorrinco NO es cierta? </p>
+
+<input type = "radio" id = "mc" name = "question3" value = "puede inyectar veneno"> Puede inyectar veneno<br>
+<input type = "radio" id = "mc" name = "question3" value = "Huevo">Sus huevos se parecen a los de una gallina<br>
+<input type = "radio" id = "mc" name = "question3" value = "campo electrico">Pueden notar cambios en el campo electrico del agua<br>
+<input type = "radio" id = "mc" name = "question3" value = "guaridas subterraneas">Tienen guaridas subterraneas<br>
+
+<p class = "questions">De que color son las manzanas? </p>
+
+<input type = "radio" id = "mc" name = "question4" value = "Rojas"> Rojas<br>
+<input type = "radio" id = "mc" name = "question4" value = "Amarillas">Amarillas<br>
+<input type = "radio" id = "mc" name = "question4" value = "Verdes">Verdes<br>
+<input type = "radio" id = "mc" name = "question4" value = "Todas">Todas las anteriores<br>
+
+<p class = "questions">Cual de estos es el origen del vengador toxico? </p>
+
+<input type = "radio" id = "mc" name = "question5" value = "zoo">El guardia de un zoologico es picado por una serpiente radioactiva<br><br>
+<input type = "radio" id = "mc" name = "question5" value = "espacio">Un ser proveniente del espacio llega a la tierra para proteger a la humanidad<br><br>
+<input type = "radio" id = "mc" name = "question5" value = "bombero">Un heroico bombero obtiene super poderes luego de sacrificarse para detener un derrame de desechos toxicos<br><br>
+<input type = "radio" id = "mc" name = "question5" value = "raro">Un adolecente con problemas mentales se tira por la ventana cayendo en un camion con desechos toxicos<br><br>
+
+
+<p class = "questions">Como se llamaba el perro de Dorothy en EL MAGO DE OZ...? </p>
+
+<input type = "radio" id = "mc" name = "question6" value = "hunk">Hunk<br><br>
+<input type = "radio" id = "mc" name = "question6" value = "toto">Toto<br><br>
+<input type = "radio" id = "mc" name = "question6" value = "henry">Henry<br><br>
+<input type = "radio" id = "mc" name = "question6" value = "pito">Pito<br><br>
+
+<p class = "questions">Una chica esta sentada en un lugar, pero incluso si ella se levanta tu no podrías sentarte ahi¿En donde estaba sentada?</p>
+<input id = "textbox" type = "text" name = "question7">
+
+<p class = "questions">Cual de estos monstruos NO pertenece a las peliculas de godzilla?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "GHIDORAH">GHIDORAH<br><br>
+<input type = "radio" id = "mc" name = "question8" value = "MOTHRA">MOTHRA<br><br>
+<input type = "radio" id = "mc" name = "question8" value = "RUSALKA">RUSALKA<br><br>
+<input type = "radio" id = "mc" name = "question8" value = "RODAN">RODAN<br><br>
+
+<p class = "questions">Cual de estos animales es mas inteligente?</p>
+
+<input type = "radio" id = "mc" name = "question9" value = "quokka">quokka<br><br>
+<input type = "radio" id = "mc" name = "question9" value = "perro">perro<br><br>
+<input type = "radio" id = "mc" name = "question9" value = "rata">rata<br><br>
+<input type = "radio" id = "mc" name = "question9" value = "cuervo">cuervo<br><br>
+
+<p class = "questions">cual de estos animales no pertenece a la familia de los macropodidos?</p>
+
+<input type = "radio" id = "mc" name = "question10" value = "ualabíes">ualabíes<br><br>
+<input type = "radio" id = "mc" name = "question10" value = "canguros">canguros<br><br>
+<input type = "radio" id = "mc" name = "question10" value = "quaggas">quaggas<br><br>
+<input type = "radio" id = "mc" name = "question10" value = "quokkas">quokkas<br><br>
+
+<input id = "button" type = "button" value = "Listo!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+
+</body>
+
+</html>
